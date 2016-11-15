@@ -2,18 +2,18 @@
 @import url(https://fonts.googleapis.com/css?family=Special+Elite);
 
 body {
-   font-size: 180%;	
+   font-size: 180%;
 }
 
 main {
   width: 500px;
-  margin: auto;	
+  margin: auto;
   padding: 40px 0 100px 0;
 }
 
 footer {
    height: 100px;
-   background-color: #000;	
+   background-color: #000;
 }
 
 h1 {
@@ -25,9 +25,9 @@ h1 {
 	background-color: #000;
 }
 
-.center, 
+.center,
 button {
-  text-align: center;	
+  text-align: center;
   margin:auto;
   display:block;
   margin-bottom: 20px;
@@ -97,7 +97,5 @@ button {
 
 
 hr {
- margin: 80px 0;   
+ margin: 80px 0;
 }
-
-

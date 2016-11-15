@@ -11,42 +11,60 @@
 // Add your JS here.
 
 
-$(document).ready(function() {  
-    
-    
-//1. 
-   
-   
-//2.  
-    
-    
-//3. 
-   
-	    
+$(document).ready(function() {
+
+
+//1.
+   $('.alertme').click(function(){
+     alert('jQuery seems easy so far!')
+   })
+
+//2.
+  $('.clickme').click(function(){
+    $('.clickme').text('I was clicked')
+  })
+
+//3.
+  $('.addStyle').click(function(){
+    $('.addStyle').addClass('buttonStyle')
+  })
+
+
 //4.
- 
-   
-//5. 
+  $('button.addDifferentStyle').click(function(){
+    $('button.addDifferentStyle').addClass('addUniqueStyle')
+    $('button.addDifferentStyle').removeClass('addDifferentStyle')
+  })
 
-	
+//5.
+  $('.removeBtn').click(function(){
+    $('button').removeClass();
+  })
+
+
 //6.
-	
-	
+$('.clickToggle').click(function(){
+  $('.clickToggle').toggleClass('buttonStyle')
+})
+
 //7.
+$('.squareBtn').click(function(){
+  $('.square').hide();
+})
 
-	
-	
+
+
 //8.
-
+$('.circle').click(function(){
+  $('.circle').hide();
+})
 
 
 //9.
+$('.toggleRedSquare').click(function(){
+  $('.redSquare').toggle(1500);
+})
 
 
 
-});  // Close: $(document).ready(function() { 
-	
-	
-
-	
-	
+});  // Close: $(document).ready(function() {
